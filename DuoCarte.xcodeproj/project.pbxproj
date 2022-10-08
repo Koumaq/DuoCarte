@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92D2764ADDA25013629FD27E /* Pods_DuoCarte_DuoCarteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7964F8681ABFFC6331E939E /* Pods_DuoCarte_DuoCarteUITests.framework */; };
+		C004FD5328F01DF900B43A51 /* TypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C004FD5228F01DF900B43A51 /* TypeController.swift */; };
+		C004FD5528F01E3600B43A51 /* ListeTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C004FD5428F01E3600B43A51 /* ListeTypeController.swift */; };
+		C004FD5728F01E7100B43A51 /* CarteDesciptionTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C004FD5628F01E7100B43A51 /* CarteDesciptionTypeController.swift */; };
+		C004FD5928F079C600B43A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C004FD5828F079C600B43A51 /* LaunchScreen.storyboard */; };
 		C07DCB7928E6CB74002190F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB7828E6CB74002190F5 /* AppDelegate.swift */; };
 		C07DCB7B28E6CB74002190F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB7A28E6CB74002190F5 /* SceneDelegate.swift */; };
 		C07DCB7D28E6CB74002190F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB7C28E6CB74002190F5 /* ViewController.swift */; };
@@ -16,6 +21,16 @@
 		C07DCB9028E6CB75002190F5 /* DuoCarteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB8F28E6CB75002190F5 /* DuoCarteTests.swift */; };
 		C07DCB9A28E6CB75002190F5 /* DuoCarteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB9928E6CB75002190F5 /* DuoCarteUITests.swift */; };
 		C07DCB9C28E6CB75002190F5 /* DuoCarteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCB9B28E6CB75002190F5 /* DuoCarteUITestsLaunchTests.swift */; };
+		C07DCBAA28E6E472002190F5 /* HearthstoneApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCBA928E6E472002190F5 /* HearthstoneApi.swift */; };
+		C07DCBAC28E720CF002190F5 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCBAB28E720CF002190F5 /* Carte.swift */; };
+		C07DCBAF28E7249D002190F5 /* RNGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DCBAE28E7249D002190F5 /* RNGController.swift */; };
+		C093FB5C28E8147700BEDE20 /* ListeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093FB5B28E8147700BEDE20 /* ListeController.swift */; };
+		C093FB5E28E81B8800BEDE20 /* CarteDesciptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093FB5D28E81B8800BEDE20 /* CarteDesciptionController.swift */; };
+		C0F71E5628EEB33D0099B928 /* ListeClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F71E5528EEB33D0099B928 /* ListeClassController.swift */; };
+		C0F71E5828EEB3B00099B928 /* CarteDesciptionClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F71E5728EEB3B00099B928 /* CarteDesciptionClassController.swift */; };
+		C0F71E5A28EEC2B40099B928 /* ClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F71E5928EEC2B40099B928 /* ClassController.swift */; };
+		DF01A7326898EDB628243B92 /* Pods_DuoCarteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D207C9537BBB427040A2252 /* Pods_DuoCarteTests.framework */; };
+		F6054CD16DD5B138837C75E8 /* Pods_DuoCarte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B30C3509C9D485218F2C71 /* Pods_DuoCarte.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06B78543154E697F8EB8989A /* Pods-DuoCarteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarteTests.release.xcconfig"; path = "Target Support Files/Pods-DuoCarteTests/Pods-DuoCarteTests.release.xcconfig"; sourceTree = "<group>"; };
+		1140D467D1618BC8E566F011 /* Pods-DuoCarte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarte.release.xcconfig"; path = "Target Support Files/Pods-DuoCarte/Pods-DuoCarte.release.xcconfig"; sourceTree = "<group>"; };
+		225C424E6EC4626CC6ADCF57 /* Pods-DuoCarte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarte.debug.xcconfig"; path = "Target Support Files/Pods-DuoCarte/Pods-DuoCarte.debug.xcconfig"; sourceTree = "<group>"; };
+		3D207C9537BBB427040A2252 /* Pods_DuoCarteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoCarteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4ABB9AF0D4B0B455B2388 /* Pods-DuoCarteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarteTests.debug.xcconfig"; path = "Target Support Files/Pods-DuoCarteTests/Pods-DuoCarteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73B30C3509C9D485218F2C71 /* Pods_DuoCarte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoCarte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6308637BEAE48CA77CC8B4 /* Pods-DuoCarte-DuoCarteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarte-DuoCarteUITests.debug.xcconfig"; path = "Target Support Files/Pods-DuoCarte-DuoCarteUITests/Pods-DuoCarte-DuoCarteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1970B995A65D2F8216AC9A1 /* Pods-DuoCarte-DuoCarteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoCarte-DuoCarteUITests.release.xcconfig"; path = "Target Support Files/Pods-DuoCarte-DuoCarteUITests/Pods-DuoCarte-DuoCarteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C004FD5228F01DF900B43A51 /* TypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeController.swift; sourceTree = "<group>"; };
+		C004FD5428F01E3600B43A51 /* ListeTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeTypeController.swift; sourceTree = "<group>"; };
+		C004FD5628F01E7100B43A51 /* CarteDesciptionTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteDesciptionTypeController.swift; sourceTree = "<group>"; };
+		C004FD5828F079C600B43A51 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C07DCB7528E6CB74002190F5 /* DuoCarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoCarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07DCB7828E6CB74002190F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C07DCB7A28E6CB74002190F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,15 @@
 		C07DCB9528E6CB75002190F5 /* DuoCarteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoCarteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07DCB9928E6CB75002190F5 /* DuoCarteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCarteUITests.swift; sourceTree = "<group>"; };
 		C07DCB9B28E6CB75002190F5 /* DuoCarteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCarteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C07DCBA928E6E472002190F5 /* HearthstoneApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneApi.swift; sourceTree = "<group>"; };
+		C07DCBAB28E720CF002190F5 /* Carte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Carte.swift; path = /Users/blaess2u/Desktop/Projet/DuoCarte/DuoCarte/Carte.swift; sourceTree = "<absolute>"; };
+		C07DCBAE28E7249D002190F5 /* RNGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNGController.swift; sourceTree = "<group>"; };
+		C093FB5B28E8147700BEDE20 /* ListeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeController.swift; sourceTree = "<group>"; };
+		C093FB5D28E81B8800BEDE20 /* CarteDesciptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteDesciptionController.swift; sourceTree = "<group>"; };
+		C0F71E5528EEB33D0099B928 /* ListeClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeClassController.swift; sourceTree = "<group>"; };
+		C0F71E5728EEB3B00099B928 /* CarteDesciptionClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteDesciptionClassController.swift; sourceTree = "<group>"; };
+		C0F71E5928EEC2B40099B928 /* ClassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassController.swift; sourceTree = "<group>"; };
+		C7964F8681ABFFC6331E939E /* Pods_DuoCarte_DuoCarteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoCarte_DuoCarteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6054CD16DD5B138837C75E8 /* Pods_DuoCarte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF01A7326898EDB628243B92 /* Pods_DuoCarteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D2764ADDA25013629FD27E /* Pods_DuoCarte_DuoCarteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92DC548FB5A1AA1DBF0AB559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73B30C3509C9D485218F2C71 /* Pods_DuoCarte.framework */,
+				C7964F8681ABFFC6331E939E /* Pods_DuoCarte_DuoCarteUITests.framework */,
+				3D207C9537BBB427040A2252 /* Pods_DuoCarteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C07DCB6C28E6CB74002190F5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				C07DCB8E28E6CB75002190F5 /* DuoCarteTests */,
 				C07DCB9828E6CB75002190F5 /* DuoCarteUITests */,
 				C07DCB7628E6CB74002190F5 /* Products */,
+				C54C5E053B7CA09260A3A6DD /* Pods */,
+				92DC548FB5A1AA1DBF0AB559 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,16 @@
 		C07DCB7728E6CB74002190F5 /* DuoCarte */ = {
 			isa = PBXGroup;
 			children = (
+				C07DCBAD28E7248A002190F5 /* Controller */,
+				C07DCBA828E6E459002190F5 /* Api */,
 				C07DCB7828E6CB74002190F5 /* AppDelegate.swift */,
-				C07DCB7A28E6CB74002190F5 /* SceneDelegate.swift */,
 				C07DCB7C28E6CB74002190F5 /* ViewController.swift */,
+				C07DCB7A28E6CB74002190F5 /* SceneDelegate.swift */,
 				C07DCB7E28E6CB74002190F5 /* Main.storyboard */,
 				C07DCB8128E6CB75002190F5 /* Assets.xcassets */,
 				C07DCB8328E6CB75002190F5 /* LaunchScreen.storyboard */,
 				C07DCB8628E6CB75002190F5 /* Info.plist */,
+				C07DCBAB28E720CF002190F5 /* Carte.swift */,
 			);
 			path = DuoCarte;
 			sourceTree = "<group>";
@@ -127,6 +181,44 @@
 			path = DuoCarteUITests;
 			sourceTree = "<group>";
 		};
+		C07DCBA828E6E459002190F5 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				C07DCBA928E6E472002190F5 /* HearthstoneApi.swift */,
+				C004FD5828F079C600B43A51 /* LaunchScreen.storyboard */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		C07DCBAD28E7248A002190F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C07DCBAE28E7249D002190F5 /* RNGController.swift */,
+				C093FB5B28E8147700BEDE20 /* ListeController.swift */,
+				C0F71E5728EEB3B00099B928 /* CarteDesciptionClassController.swift */,
+				C093FB5D28E81B8800BEDE20 /* CarteDesciptionController.swift */,
+				C0F71E5528EEB33D0099B928 /* ListeClassController.swift */,
+				C0F71E5928EEC2B40099B928 /* ClassController.swift */,
+				C004FD5228F01DF900B43A51 /* TypeController.swift */,
+				C004FD5428F01E3600B43A51 /* ListeTypeController.swift */,
+				C004FD5628F01E7100B43A51 /* CarteDesciptionTypeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C54C5E053B7CA09260A3A6DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225C424E6EC4626CC6ADCF57 /* Pods-DuoCarte.debug.xcconfig */,
+				1140D467D1618BC8E566F011 /* Pods-DuoCarte.release.xcconfig */,
+				7B6308637BEAE48CA77CC8B4 /* Pods-DuoCarte-DuoCarteUITests.debug.xcconfig */,
+				B1970B995A65D2F8216AC9A1 /* Pods-DuoCarte-DuoCarteUITests.release.xcconfig */,
+				6DA4ABB9AF0D4B0B455B2388 /* Pods-DuoCarteTests.debug.xcconfig */,
+				06B78543154E697F8EB8989A /* Pods-DuoCarteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07DCB9F28E6CB75002190F5 /* Build configuration list for PBXNativeTarget "DuoCarte" */;
 			buildPhases = (
+				600C4351782914123B743933 /* [CP] Check Pods Manifest.lock */,
 				C07DCB7128E6CB74002190F5 /* Sources */,
 				C07DCB7228E6CB74002190F5 /* Frameworks */,
 				C07DCB7328E6CB74002190F5 /* Resources */,
+				EA318AA69C823F2BE724EE73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07DCBA228E6CB75002190F5 /* Build configuration list for PBXNativeTarget "DuoCarteTests" */;
 			buildPhases = (
+				3B96F2CB9F966A9BA26978F7 /* [CP] Check Pods Manifest.lock */,
 				C07DCB8728E6CB75002190F5 /* Sources */,
 				C07DCB8828E6CB75002190F5 /* Frameworks */,
 				C07DCB8928E6CB75002190F5 /* Resources */,
@@ -169,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07DCBA528E6CB75002190F5 /* Build configuration list for PBXNativeTarget "DuoCarteUITests" */;
 			buildPhases = (
+				B3CFFE1623B2237EDD66ECBF /* [CP] Check Pods Manifest.lock */,
 				C07DCB9128E6CB75002190F5 /* Sources */,
 				C07DCB9228E6CB75002190F5 /* Frameworks */,
 				C07DCB9328E6CB75002190F5 /* Resources */,
+				44303B22F6DA7F407F651E70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +330,7 @@
 			files = (
 				C07DCB8528E6CB75002190F5 /* LaunchScreen.storyboard in Resources */,
 				C07DCB8228E6CB75002190F5 /* Assets.xcassets in Resources */,
+				C004FD5928F079C600B43A51 /* LaunchScreen.storyboard in Resources */,
 				C07DCB8028E6CB74002190F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +351,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B96F2CB9F966A9BA26978F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoCarteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44303B22F6DA7F407F651E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoCarte-DuoCarteUITests/Pods-DuoCarte-DuoCarteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoCarte-DuoCarteUITests/Pods-DuoCarte-DuoCarteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuoCarte-DuoCarteUITests/Pods-DuoCarte-DuoCarteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600C4351782914123B743933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoCarte-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CFFE1623B2237EDD66ECBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoCarte-DuoCarteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA318AA69C823F2BE724EE73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoCarte/Pods-DuoCarte-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuoCarte/Pods-DuoCarte-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuoCarte/Pods-DuoCarte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C07DCB7128E6CB74002190F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C093FB5C28E8147700BEDE20 /* ListeController.swift in Sources */,
+				C004FD5328F01DF900B43A51 /* TypeController.swift in Sources */,
 				C07DCB7D28E6CB74002190F5 /* ViewController.swift in Sources */,
 				C07DCB7928E6CB74002190F5 /* AppDelegate.swift in Sources */,
+				C0F71E5A28EEC2B40099B928 /* ClassController.swift in Sources */,
+				C07DCBAA28E6E472002190F5 /* HearthstoneApi.swift in Sources */,
+				C07DCBAF28E7249D002190F5 /* RNGController.swift in Sources */,
 				C07DCB7B28E6CB74002190F5 /* SceneDelegate.swift in Sources */,
+				C0F71E5828EEB3B00099B928 /* CarteDesciptionClassController.swift in Sources */,
+				C004FD5728F01E7100B43A51 /* CarteDesciptionTypeController.swift in Sources */,
+				C0F71E5628EEB33D0099B928 /* ListeClassController.swift in Sources */,
+				C07DCBAC28E720CF002190F5 /* Carte.swift in Sources */,
+				C004FD5528F01E3600B43A51 /* ListeTypeController.swift in Sources */,
+				C093FB5E28E81B8800BEDE20 /* CarteDesciptionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +646,7 @@
 		};
 		C07DCBA028E6CB75002190F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225C424E6EC4626CC6ADCF57 /* Pods-DuoCarte.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +674,7 @@
 		};
 		C07DCBA128E6CB75002190F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1140D467D1618BC8E566F011 /* Pods-DuoCarte.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +702,7 @@
 		};
 		C07DCBA328E6CB75002190F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA4ABB9AF0D4B0B455B2388 /* Pods-DuoCarteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +727,7 @@
 		};
 		C07DCBA428E6CB75002190F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B78543154E697F8EB8989A /* Pods-DuoCarteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +752,7 @@
 		};
 		C07DCBA628E6CB75002190F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6308637BEAE48CA77CC8B4 /* Pods-DuoCarte-DuoCarteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +775,7 @@
 		};
 		C07DCBA728E6CB75002190F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1970B995A65D2F8216AC9A1 /* Pods-DuoCarte-DuoCarteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
