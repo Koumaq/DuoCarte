@@ -11,7 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var listClass: UIButton!
+    @IBOutlet weak var BListeCarte: UIButton!
     @IBOutlet weak var allB: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view. fff test
@@ -20,6 +24,14 @@ class ViewController: UIViewController {
     @IBAction func AffallCarte(_ sender: Any) {
         
         self.performSegue(withIdentifier: "toRNGcarte", sender: nil)
+    }
+    
+    @IBAction func AffListeCarte(_ sender: Any) {
+        self.performSegue(withIdentifier: "toListeCarte", sender: nil)
+    }
+    
+    @IBAction func AffListeClass(_ sender: Any) {
+        self.performSegue(withIdentifier: "toClass", sender: nil)
     }
     
 }
