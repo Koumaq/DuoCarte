@@ -13,6 +13,7 @@ import WebKit
 class CarteDesciptionTypeController: UIViewController {
     
 
+    @IBOutlet weak var def: UILabel!
     @IBOutlet weak var nom: UILabel!
     @IBOutlet weak var atk: UILabel!
     @IBOutlet weak var heal: UILabel!
@@ -34,6 +35,7 @@ class CarteDesciptionTypeController: UIViewController {
                 self.atk.text = ("Attaque :  \(safecartes.attack)")
                 self.heal.text = ("Vie :  \(safecartes.health)")
                 self.manaCost.text = ("Mana :  \(safecartes.manaCost)")
+                self.def.text = ("\(safecartes.def)")
             }
             
         }

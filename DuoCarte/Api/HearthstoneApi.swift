@@ -29,7 +29,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -57,7 +57,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -86,7 +86,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -115,7 +115,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -144,7 +144,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -172,7 +172,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -201,7 +201,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -230,7 +230,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -259,7 +259,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -288,7 +288,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -316,7 +316,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -344,7 +344,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -373,7 +373,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -402,7 +402,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -431,7 +431,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -460,7 +460,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -489,7 +489,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -518,7 +518,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -547,7 +547,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -576,7 +576,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue, def: carte["flavorText"].stringValue)
                         )
                     }
                 }
@@ -604,7 +604,9 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,
+                                            def: carte["flavorText"].stringValue)
+                                            
                         )
                     }
                 }
@@ -632,7 +634,7 @@ class HearststoneApi {
                                             image: carte["image"].stringValue,
                                             attack: carte["attack"].intValue,
                                             health: carte["health"].intValue,
-                                            manaCost: carte["manaCost"].intValue)
+                                            manaCost: carte["manaCost"].intValue,def: carte["flavorText"].stringValue)
                         )
                     }
                 }

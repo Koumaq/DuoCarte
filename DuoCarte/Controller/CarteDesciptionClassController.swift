@@ -18,6 +18,7 @@ class CarteDesciptionClassController: UIViewController {
     @IBOutlet weak var heal: UILabel!
     @IBOutlet weak var manaCost: UILabel!
     
+    @IBOutlet weak var def: UILabel!
     @IBOutlet weak var imgCarte: UIImageView!
     var carte: Carte? = nil
     
@@ -34,6 +35,8 @@ class CarteDesciptionClassController: UIViewController {
                 self.atk.text = ("Attaque :  \(safecartes.attack)")
                 self.heal.text = ("Vie :  \(safecartes.health)")
                 self.manaCost.text = ("Mana :  \(safecartes.manaCost)")
+                self.def.text = ("\(safecartes.def)")
+
             }
             
         }
